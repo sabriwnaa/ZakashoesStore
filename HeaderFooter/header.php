@@ -14,15 +14,13 @@ if (session_status() === PHP_SESSION_NONE) {
 </head>
 <body>
 <header>
-    <div>
-        <a href="">Entrar agora</a>
-    </div>
     <a href="index.php"><h1>Zakashoes</h1></a>
+    
+    <div class='menu'>
+        
+    </div>
 
-    <?php if (isset($_SESSION['idUsuario']) || isset($_SESSION['adminLogado'])): // Verifica se o usuário está logado ?>
-        <a href="logout.php" class='botaoClaro'>Sair</a>
 
-    <?php endif; ?>
 </header>
 
 </body>
