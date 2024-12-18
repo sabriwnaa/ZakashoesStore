@@ -13,21 +13,25 @@ if (session_status() === PHP_SESSION_NONE) {
     <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-<header class="menu">
-        <nav>
+<header>
+        <div class="logo-container">
+            <span class="logo">Baw</span><span class="registered">®</span>
+        </div>
+        
+        <div class="menu">
             <ul class="menu-list">
-                <li class="logo">Baw<span class="registered">®</span></li>
                 <li><a href="#">VESTUÁRIO</a></li>
                 <li><a href="#">ACESSÓRIOS</a></li>
                 <li><a href="#">CALÇADOS</a></li>
                 <li><a href="#">LANÇAMENTOS</a></li>
                 <li><a href="#">NATAW</a></li>
             </ul>
-            <div class="search-container">
-                <input type="text" placeholder="O que você está procurando?">
-                <button type="submit">🔍</button>
-            </div>
-        </nav>
+        </div>
+        
+        <div class="search-container">
+            <input type="text" placeholder="O que você está procurando?">
+            <button type="submit">🔍</button>
+        </div>
     </header>
 
 </body>

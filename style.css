@@ -34,16 +34,32 @@
 
 
 
-
-.menu {
+header {
     background-color: #fff;
     border-bottom: 1px solid #e0e0e0;
     padding: 10px 0;
 }
 
-nav {
+.logo-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.registered {
+    font-size: 14px;
+    color: #f44336; /* Cor vermelha */
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
     align-items: center;
     padding: 0 20px;
 }
@@ -64,20 +80,11 @@ nav {
     color: black;
 }
 
-.logo {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.registered {
-    font-size: 14px;
-    color: #f44336; /* Cor vermelha */
-}
-
 .search-container {
     display: flex;
+    justify-content: flex-end;
     align-items: center;
-    gap: 5px;
+    padding-right: 20px;
 }
 
 .search-container input {
