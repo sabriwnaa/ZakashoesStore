@@ -15,7 +15,7 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: wheat;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 
@@ -28,6 +28,85 @@
 .main, .metade, .LouC, .preView, form, .boxCadastroItem{
     flex-direction: column;
 }
+
+
+
+
+
+
+
+.menu {
+    background-color: #fff;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.menu-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.menu-list li {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.menu-list a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.registered {
+    font-size: 14px;
+    color: #f44336; /* Cor vermelha */
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.search-container input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-container button {
+    background-color: #f44336;
+    border: none;
+    padding: 8px 12px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.search-container button:hover {
+    background-color: #e53935;
+}
+
+
+
+
+
+
+
+
 
 .main{
     flex: 10;
