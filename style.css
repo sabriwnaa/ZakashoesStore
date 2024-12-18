@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.2;
+}
+
+.container{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    color: wheat;
+    text-align: center;
+}
+
+.main, .metade, .LouC, .preView, form, .informacoes, .tituloPV, .itemLC, .item, .posicao, .boxFoto, header, footer, .opcoes, .boxCadastroItem, .tituloAdmin, .opcoesCadastro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main, .metade, .LouC, .preView, form, .boxCadastroItem{
+    flex-direction: column;
+}
+
+.main{
+    flex: 10;
+    background-color: #f8ddb0;
+}
+header, footer {
+    background-color: #B02E0C; /*#B02E0C Dark orange */
+
+}
+header{
+    gap: 50%;
+    width: 100vw;
+    padding: 20px;
+    height: 10vh;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+footer{
+    flex: 1;
+}
+
+h2{
+    font-size: 20px;
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    flex: 5;
+}
+
+.metade{
+    width: 100vw;
+    flex:1;
+}
+
+
+.preView{
+    width: 90%;
+    height: 20%;
+    box-shadow: 5px 5px 30px rgba(42, 15, 3, 0.5);
+    background-color: #EB4511; /* Main orange color */
+    border-radius: 7px; /* Slightly rounded corners */
+    margin: 5%;
+}
+
+
+
+.textoPV{
+    font-size: 10px;
+}
+
+.textoPV p{
+    font-size: 15px;
+}
+
+.LouC, .preView {
+    gap: 10px;
+    padding: 10px;
+}
+
+.tituloPV{
+    font-size: 24px;
+}
+
+
+.itens{
+    width: 100%;
+}
+
+.item{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    width: 100%;
+    height: 33,3%;
+    display: flex;
+    padding: 10px 5px;
+}
+
+.LC{
+    width: 100vw;
+    display: flex;
+    flex: 1;
+    height: 20vh;
+}
+a .LC{
+    height: 100%;
+    width: 100%;
+}
+.itemLC{
+    width: 50%;
+    background-color: #ff7f3f;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%; /* Full width minus padding */
+    padding: 10px; /* Padding inside inputs */
+    border-radius: 7px; /* Rounded corners on inputs */
+    border: none;
+}
+
+.senha{
+    display: flex;
+    width: 100%;
+    gap: 5px;
+}
+
+.campoSenha{
+    flex:7;
+    margin-right: 5px;
+}
+
+.showHide{
+    flex: 1;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    color: #d16834;
+    padding: 10px;
+}
+
+.LouC{
+    width: 100vw;
+    flex: 4;
+    background-color: #d16834;
+    text-align: left;
+}
+
+
+.fotoItem{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    display: block;
+
+}
+
+.posicao{
+    width: 5%;
+    height: 100%;
+    font-size: 12px;
+    margin-right: 15px;
+}
+
+.informacoes{
+    flex: 1;
+    justify-content: flex-start;
+}
+
+.boxFoto{
+    height: 70px;
+    aspect-ratio: 1 / 1;
+    overflow: hidden; 
+    border-radius: 10%; 
+    flex-shrink: 0;
+    margin-right: 10px;
+}
+.nomeVotos{
+    height: 100%;
+    width: 50%;
+    text-align: left;
+}
+
+
+
+.nomeVotos h3{
+    font-size: 20px;
+    
+}
+
+button{
+    border: none;
+    border-radius: 7px;
+
+}
+
+.botaoEscuro{
+    padding: 10px 15px;
+    font-size: 15px;
+    background-color: #B02E0C;
+    color: wheat;
+    border-radius: 7px;
+}
+
+form{
+    width: 100%;
+}
+
+.nomeCampo{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.colunas{
+    display: flex;
+    width: 100%;
+    
+}
+
+.colunas h2, .colunas h3{
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+}
+
+.colunas h2{
+    width: 80%;
+}
+
+.colunas h3{
+    flex: 1;
+}
+
+.containerRanking{
+    background-color: #EB4511; 
+    flex:1;
+    padding: 10px 20px;
+    width: 100vw;
+}
+
+.containerRanking h1{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.containerVotacao{
+    background-color: #B02E0C;
+}
+
+.tituloAdmin{
+    margin: 10px 0px;
+    height: 20%;
+}
+
+.boxItem{
+    width: 80%;
+    height:60vh;
+    margin-bottom: 5vh;
+    background-color: #B02E0C;
+    border-radius: 7px;
+}
+
+.opcoes{
+    width: 90%;
+    gap: 5%;
+    flex: 1;
+}
+
+
+.botaoClaro{
+color: #6a1905; 
+background-color: wheat; padding: 10px 15px; 
+font-size: 15px; 
+border-radius: 7px;
+}
+
+.camposItem{
+    height: 60%;
+}
+
+.item-img {
+    width: 100%; /* Faz a imagem ocupar toda a largura do elemento pai */
+    height: 100%; /* Faz a imagem ocupar toda a altura do elemento pai */
+    object-fit: cover; /* Garante que a imagem ocupe todo o espaço, cortando proporcionalmente */
+    object-position: center; /* Centraliza a parte visível da imagem */
+    border-radius: 5px; /* Opcional: arredonda os cantos */
+}
+
+.containerVotacao {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black; /* Cor de fundo caso a imagem não carregue */
+}
+
+.votacaoFoto {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Espaça a barra superior e os botões */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.barraArtista {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    height: 15%;
+}
+
+.barraArtista h2{
+    height: 40%;
+    font-size: 30px;
+}
+
+.barraArtista p{
+    height: 40%;
+}
+
+.barraArtista a{
+    height: 20%;
+}
+
+.botoesVotacao {
+    display: flex;
+    
+    flex-direction: row;
+    width: 70%;
+    gap: 20px;
+}
+
+.botoesVotacao button img{
+    width: 20px;
+
+}
+
+.botoesVotacao button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerBotoesVotacao{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    bottom: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.botoesVotacao .botao {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    cursor: pointer;
+    flex: 1;
+}
+
+.previewImagem {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+}
+
+.previewContainer {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputCampo {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.labelCampo {
+    display: flex;
+    flex-direction: column;
+}
+
+.formularioCadastro {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mensagemErro {
+    color: red;
+}
+
+.opcoesCadastro {
+    padding: 10px;
+    gap: 20px;
+    height: 20%;
+}
+
+/* Oculta o input original */
+.custom-file-input {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+/* Estiliza o rótulo como substituto */
+.custom-file-label {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: wheat;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    color: #6a1905;
+}
+
+.previewContainer img {
+    width: 100%;
+}
+
+/* Estilo adicional para a div contêiner do input */
+.custom-file {
+    position: relative;
+    display: inline-block;
+}
